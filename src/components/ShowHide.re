@@ -18,7 +18,7 @@ let make = (~greeting, _children) => {
   /* State transitions */
   reducer: (action, state) =>
     switch (action) {
-    | Toggle => ReasonReact.Update({...state, show: ! state.show})
+    | Toggle => ReasonReact.Update({show: ! state.show})
     },
 
   render: self => {
