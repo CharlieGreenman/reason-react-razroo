@@ -20,6 +20,9 @@
   "bs-dependencies": [
     "reason-react"
   ],
+  "bs-dev-dependencies": [
+    "@glennsl/bs-jest"
+  ],
   "refmt": 3,
   "warnings": {
     "error": "+5"
