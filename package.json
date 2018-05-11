@@ -15,6 +15,9 @@
   "keywords": [
     "BuckleScript"
   ],
+  "jest": {
+    "testMatch": ["**/?(*_)(spec|test).bs.js?(x)"]
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
