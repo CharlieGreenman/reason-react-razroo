@@ -7,7 +7,7 @@
     "clean": "bsb -clean-world",
     "test": "jest --coverage && yarn run coverage",
     "test-watch": "jest --coverage --watch",
-    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov | coveralls",
+    "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov",
     "watch:jest": "jest --coverage --watchAll",
     "webpack": "webpack -w",
     "webpack:production": "NODE_ENV=production webpack"
