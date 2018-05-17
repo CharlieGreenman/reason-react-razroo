@@ -16,7 +16,9 @@
     "BuckleScript"
   ],
   "jest": {
-    "testMatch": ["**/?(*_)(spec|test).bs.js?(x)"]
+    "testMatch": [
+      "**/?(*_)(spec|test).bs.js?(x)"
+    ]
   },
   "author": "",
   "license": "MIT",
