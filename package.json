@@ -5,7 +5,7 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "test": "jest --coverage && yarn run coverage",
+    "test": "jest --coverage && npm run coverage",
     "test-watch": "jest --coverage --watch",
     "coverage": "nyc report --temp-directory=coverage --reporter=text-lcov",
     "watch:jest": "jest --coverage --watchAll",
@@ -16,7 +16,14 @@
     "BuckleScript"
   ],
   "jest": {
-    "testMatch": ["**/?(*_)(spec|test).bs.js?(x)"]
+    "testMatch": [
+      "**/?(*_)(spec|test).bs.js?(x)"
+    ]
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.bs.js"
+    ]
   },
   "author": "",
   "license": "MIT",
