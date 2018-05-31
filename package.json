@@ -20,11 +20,6 @@
       "**/?(*_)(spec|test).bs.js?(x)"
     ]
   },
-  "nyc": {
-    "include": [
-      "src/**/*.bs.js"
-    ]
-  },
   "author": "",
   "license": "MIT",
   "dependencies": {
