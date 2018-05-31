@@ -6,7 +6,7 @@
       "functions": 99,
       "branches": 99,
       "include": [
-        "src/**/*.bs.js"
+        "lib/**/*.bs.js"
       ],
       "exclude": [
         "src/**/*.spec.js"
@@ -24,7 +24,6 @@
       ],
       "cache": true,
       "all": true,
-      "temp-directory": "./alternative-tmp",
-      "report-dir": "./alternative"
+      "report-dir": "./coverage"
 
 }
