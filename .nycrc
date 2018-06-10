@@ -24,6 +24,7 @@
       ],
       "cache": true,
       "all": true,
+      "temp-directory": "./coverage-tmp",
       "report-dir": "./coverage"
 
 }
