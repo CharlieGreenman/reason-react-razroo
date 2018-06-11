@@ -6,18 +6,15 @@
       "functions": 99,
       "branches": 99,
       "include": [
-        "lib/**/*.bs.js"
+        "**/*.bs.js"
       ],
       "exclude": [
-        "src/**/*.spec.js"
+        "**/*.spec.js"
       ],
       "ignore-class-method": "methodToIgnore",
       "reporter": [
         "lcov",
         "text-summary"
-      ],
-      "require": [
-        "./test/helpers/some-helper.js"
       ],
       "extension": [
         ".jsx"
